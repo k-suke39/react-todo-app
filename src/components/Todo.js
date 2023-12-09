@@ -22,7 +22,6 @@ const Todo = () =>{
     })
     setTodos(newTodos);
   }
-
   const createTodo = (todo) => {
     setTodos([...todos, todo])
   }
